@@ -68,7 +68,7 @@
   <notepads>
   </notepads>
   <order>
-  <hop> <from>CSV file input</from><to>Select values</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CNPJ</from><to>Erros</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CPF</from><to>Filter rows CNPJ</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string</from><to>Filter rows CPF</to><enabled>Y</enabled> </hop>  <hop> <from>Select values</from><to>Replace in string</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CNPJ</from><to>Select values 2</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CPF</from><to>Text file output 2</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2</from><to>adiciona uma constante e seu valor</to><enabled>Y</enabled> </hop>  <hop> <from>adiciona uma constante e seu valor</from><to>Add sequence</to><enabled>Y</enabled> </hop>  <hop> <from>Add sequence</from><to>Add value fields changing sequence</to><enabled>Y</enabled> </hop>  <hop> <from>Add value fields changing sequence</from><to>Unique rows (campos unicos)</to><enabled>Y</enabled> </hop>  <hop> <from>Unique rows (campos unicos)</from><to>saidaSemRepeticao</to><enabled>Y</enabled> </hop>  <hop> <from>Add value fields changing sequence</from><to>saidaComRepeticao</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>CSV file input</from><to>Select values</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CNPJ</from><to>Erros</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CPF</from><to>Filter rows CNPJ</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string</from><to>Filter rows CPF</to><enabled>Y</enabled> </hop>  <hop> <from>Select values</from><to>Replace in string</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CNPJ</from><to>Select values 2</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2</from><to>adiciona uma constante e seu valor</to><enabled>Y</enabled> </hop>  <hop> <from>adiciona uma constante e seu valor</from><to>Add sequence</to><enabled>Y</enabled> </hop>  <hop> <from>Add sequence</from><to>Add value fields changing sequence</to><enabled>Y</enabled> </hop>  <hop> <from>Add value fields changing sequence</from><to>Unique rows (campos unicos)</to><enabled>Y</enabled> </hop>  <hop> <from>Unique rows (campos unicos)</from><to>saidaSemRepeticao</to><enabled>Y</enabled> </hop>  <hop> <from>Add value fields changing sequence</from><to>saidaComRepeticao</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CPF</from><to>Text file output 2</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>CSV file input</name>
     <type>CsvInput</type>
@@ -583,7 +583,7 @@
         <precision>0</precision>
       </field>
       <field>
-        <name>result</name>
+        <name>campo_repetido</name>
         <type>Integer</type>
         <format/>
         <currency/>
@@ -831,7 +831,7 @@
            </partitioning>
       <start>1</start>
       <increment>1</increment>
-      <resultfieldName>result</resultfieldName>
+      <resultfieldName>campo_repetido</resultfieldName>
     <fields>
       <field>
         <name>name</name>
@@ -934,7 +934,7 @@
         <precision>0</precision>
       </field>
       <field>
-        <name>result</name>
+        <name>campo_repetido</name>
         <type>Integer</type>
         <format/>
         <currency/>

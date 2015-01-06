@@ -1,4 +1,4 @@
-namecpf/cnpjtipoRestricaoid_automaticoresult
+namecpf/cnpjtipoRestricaoid_automaticocampo_repetido
  CONTRUTORA SERRANO/CONSTRUTORA E TERRAPLANAGENS SERRANO LTDA                                                            04605892000105                                                                                      inidoneo 0 0000000001
 AÇÃO EMPREENDIMENTOS E SERVIÇOS LTDA.                                                                                    42104869000126                                                                                      inidoneo 1 0000000001
 AÇO EXPRESS/J. R. INDUSTRIA DE MOVEIS LTDA ME                                                                            01428581000120                                                                                      inidoneo 2 0000000001
