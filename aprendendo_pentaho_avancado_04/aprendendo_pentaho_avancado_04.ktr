@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>apreendendo_transformar_avancado_03</name>
+    <name>aprendendo_pentaho_avancado_04</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -69,7 +69,7 @@
   <notepads>
   </notepads>
   <order>
-  <hop> <from>Filter rows CNPJ</from><to>Erros</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CPF</from><to>Filter rows CNPJ</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string</from><to>Filter rows CPF</to><enabled>Y</enabled> </hop>  <hop> <from>Select values</from><to>Replace in string</to><enabled>Y</enabled> </hop>  <hop> <from>Add sequence</from><to>Add value fields changing sequence</to><enabled>Y</enabled> </hop>  <hop> <from>Add value fields changing sequence</from><to>Unique rows (campos unicos)</to><enabled>Y</enabled> </hop>  <hop> <from>Unique rows (campos unicos)</from><to>saidaSemRepeticao</to><enabled>Y</enabled> </hop>  <hop> <from>Add value fields changing sequence</from><to>saidaComRepeticao</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2</from><to>Add sequence</to><enabled>Y</enabled> </hop>  <hop> <from>CSV file input 2</from><to>adiciona uma constante e seu valor 2</to><enabled>Y</enabled> </hop>  <hop> <from>adiciona uma constante e seu valor 2</from><to>Select values</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CNPJ</from><to>Select values 2</to><enabled>Y</enabled> </hop>  <hop> <from>CSV file input</from><to>adiciona uma constante e seu valor</to><enabled>Y</enabled> </hop>  <hop> <from>adiciona uma constante e seu valor</from><to>Select values</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CPF</from><to>Select values 2 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2 2 2</from><to>Select values Provenance</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2 2 2</from><to>Select values restritor</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2 2 2</from><to>Select values restrição</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2 2 2</from><to>Select values Person</to><enabled>Y</enabled> </hop>  <hop> <from>Select values restritor</from><to>Unique rows (campos unicos) 2</to><enabled>Y</enabled> </hop>  <hop> <from>Select values Provenance</from><to>Unique rows (campos unicos) 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add sequence 2</from><to>Excel Output</to><enabled>Y</enabled> </hop>  <hop> <from>Select values restrição</from><to>Add sequence 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add sequence 2 2</from><to>Excel Output 2</to><enabled>Y</enabled> </hop>  <hop> <from>Select values Person</from><to>Unique rows</to><enabled>Y</enabled> </hop>  <hop> <from>Unique rows</from><to>Add sequence 2</to><enabled>Y</enabled> </hop>  <hop> <from>Unique rows (campos unicos) 2</from><to>Excel Output 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Unique rows (campos unicos) 2 2</from><to>Excel Output aaa</to><enabled>Y</enabled> </hop>  </order>
+  <hop> <from>Filter rows CNPJ</from><to>Erros</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CPF</from><to>Filter rows CNPJ</to><enabled>Y</enabled> </hop>  <hop> <from>Replace in string</from><to>Filter rows CPF</to><enabled>Y</enabled> </hop>  <hop> <from>Select values</from><to>Replace in string</to><enabled>Y</enabled> </hop>  <hop> <from>Add sequence</from><to>Add value fields changing </to><enabled>Y</enabled> </hop>  <hop> <from>Add value fields changing </from><to>Unique rows (campos unicos)</to><enabled>Y</enabled> </hop>  <hop> <from>Unique rows (campos unicos)</from><to>saidaSemRepeticao</to><enabled>Y</enabled> </hop>  <hop> <from>Add value fields changing </from><to>saidaComRepeticao</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2</from><to>Add sequence</to><enabled>Y</enabled> </hop>  <hop> <from>CSV file input 2</from><to>adiciona uma constante e seu valor 2</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CNPJ</from><to>Select values 2</to><enabled>Y</enabled> </hop>  <hop> <from>CSV file input</from><to>adiciona uma constante e seu valor</to><enabled>Y</enabled> </hop>  <hop> <from>Filter rows CPF</from><to>Select values 2 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2 2 2</from><to>Select values Provenance</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2 2 2</from><to>Select values restritor</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2 2 2</from><to>Select values restrição</to><enabled>Y</enabled> </hop>  <hop> <from>Select values 2 2 2</from><to>Select values Person</to><enabled>Y</enabled> </hop>  <hop> <from>Select values restritor</from><to>Unique rows 2.1</to><enabled>Y</enabled> </hop>  <hop> <from>Select values Provenance</from><to>Unique rows 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add sequence 2</from><to>Excel Output</to><enabled>Y</enabled> </hop>  <hop> <from>Select values restrição</from><to>Add sequence 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add sequence 2 2</from><to>Excel Output 2</to><enabled>Y</enabled> </hop>  <hop> <from>Select values Person</from><to>Unique rows</to><enabled>Y</enabled> </hop>  <hop> <from>Unique rows</from><to>Add sequence 2</to><enabled>Y</enabled> </hop>  <hop> <from>Unique rows 2.1</from><to>Excel Output 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Base URI</from><to>URI Resource</to><enabled>Y</enabled> </hop>  <hop> <from>Data Property Mapping Empresa</from><to>scape</to><enabled>Y</enabled> </hop>  <hop> <from>Unique rows 2</from><to>Add sequence 2 2 2</to><enabled>Y</enabled> </hop>  <hop> <from>Add sequence 2 2 2</from><to>Base URI</to><enabled>Y</enabled> </hop>  <hop> <from>adiciona uma constante e seu valor 2</from><to>Select values</to><enabled>Y</enabled> </hop>  <hop> <from>adiciona uma constante e seu valor</from><to>Select values</to><enabled>Y</enabled> </hop>  <hop> <from>URI Resource</from><to>Formula 2</to><enabled>Y</enabled> </hop>  <hop> <from>Formula 2</from><to>Data Property Mapping Empresa</to><enabled>Y</enabled> </hop>  <hop> <from>scape</from><to>Formula 3  2</to><enabled>Y</enabled> </hop>  <hop> <from>Triplas Data Property</from><to>Saida RDF</to><enabled>Y</enabled> </hop>  <hop> <from>Formula 3  2</from><to>Triplas Data Property</to><enabled>Y</enabled> </hop>  </order>
   <step>
     <name>Add sequence</name>
     <type>Sequence</type>
@@ -92,8 +92,8 @@
       <max_value>999999999</max_value>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>746</xloc>
-      <yloc>105</yloc>
+      <xloc>704</xloc>
+      <yloc>211</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -120,8 +120,8 @@
       <max_value>999999999</max_value>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1297</xloc>
-      <yloc>568</yloc>
+      <xloc>1041</xloc>
+      <yloc>577</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -148,14 +148,42 @@
       <max_value>999999999</max_value>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1114</xloc>
-      <yloc>497</yloc>
+      <xloc>873</xloc>
+      <yloc>503</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Add value fields changing sequence</name>
+    <name>Add sequence 2 2 2</name>
+    <type>Sequence</type>
+    <description/>
+    <distribute>N</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <valuename>id_arquivo</valuename>
+      <use_database>N</use_database>
+      <connection/>
+      <schema/>
+      <seqname>SEQ_</seqname>
+      <use_counter>Y</use_counter>
+      <counter_name/>
+      <start_at>1</start_at>
+      <increment_by>1</increment_by>
+      <max_value>2</max_value>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1041</xloc>
+      <yloc>346</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Add value fields changing </name>
     <type>FieldsChangeSequence</type>
     <description/>
     <distribute>N</distribute>
@@ -174,8 +202,39 @@
       </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>959</xloc>
-      <yloc>105</yloc>
+      <xloc>873</xloc>
+      <yloc>211</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Base URI</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>
+      <field>
+        <name>Base URI</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>http:&#47;&#47;arida.ufc.br</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1140</xloc>
+      <yloc>346</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -283,8 +342,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>29</xloc>
-      <yloc>335</yloc>
+      <xloc>114</xloc>
+      <yloc>554</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -392,8 +451,120 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>28</xloc>
-      <yloc>573</yloc>
+      <xloc>114</xloc>
+      <yloc>350</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Data Property Mapping Empresa</name>
+    <type>DataPropertyMappingPlugin</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+<DATA_ROOT_NODE><map>
+  <entry>
+    <string>SUBJECT_OUT_FIELD_NAME</string>
+    <string>subject</string>
+  </entry>
+  <entry>
+    <string>RDF_TYPE_URIS</string>
+    <list>
+      <string>&lt;http://arida.ufc.br/tcu/vocab/resource/Provenance&gt;</string>
+    </list>
+  </entry>
+  <entry>
+    <string>MAP_TABLE</string>
+    <DataTable>
+      <Name>MAP_TABLE</Name>
+      <Header>
+        <string>MAP_TABLE_PREDICATE_FIELD_NAME</string>
+        <string>MAP_TABLE_PREDICATE_URI</string>
+        <string>MAP_TABLE_OBJECT_FIELD_NAME</string>
+        <string>MAP_TABLE_TYPED_LITERAL</string>
+      </Header>
+      <Data>
+        <Row>
+          <MAP__TABLE__PREDICATE__FIELD__NAME></MAP__TABLE__PREDICATE__FIELD__NAME>
+          <MAP__TABLE__PREDICATE__URI>http://www.w3.org/2000/01/rdf-schema#label</MAP__TABLE__PREDICATE__URI>
+          <MAP__TABLE__OBJECT__FIELD__NAME>provenanceLabel</MAP__TABLE__OBJECT__FIELD__NAME>
+          <MAP__TABLE__TYPED__LITERAL></MAP__TABLE__TYPED__LITERAL>
+        </Row>
+        <Row>
+          <MAP__TABLE__PREDICATE__FIELD__NAME></MAP__TABLE__PREDICATE__FIELD__NAME>
+          <MAP__TABLE__PREDICATE__URI>http://purl.org/dc/terms/source</MAP__TABLE__PREDICATE__URI>
+          <MAP__TABLE__OBJECT__FIELD__NAME>provenanceSource</MAP__TABLE__OBJECT__FIELD__NAME>
+          <MAP__TABLE__TYPED__LITERAL></MAP__TABLE__TYPED__LITERAL>
+        </Row>
+        <Row>
+          <MAP__TABLE__PREDICATE__FIELD__NAME></MAP__TABLE__PREDICATE__FIELD__NAME>
+          <MAP__TABLE__PREDICATE__URI>http://www.w3.org/2006/time#date</MAP__TABLE__PREDICATE__URI>
+          <MAP__TABLE__OBJECT__FIELD__NAME>provenanceTimeDate</MAP__TABLE__OBJECT__FIELD__NAME>
+          <MAP__TABLE__TYPED__LITERAL></MAP__TABLE__TYPED__LITERAL>
+        </Row>
+        <Row>
+          <MAP__TABLE__PREDICATE__FIELD__NAME></MAP__TABLE__PREDICATE__FIELD__NAME>
+          <MAP__TABLE__PREDICATE__URI>http://www.w3.org/1999/02/22-rdf-syntax-ns#id</MAP__TABLE__PREDICATE__URI>
+          <MAP__TABLE__OBJECT__FIELD__NAME>id_arquivo</MAP__TABLE__OBJECT__FIELD__NAME>
+          <MAP__TABLE__TYPED__LITERAL></MAP__TABLE__TYPED__LITERAL>
+        </Row>
+        <Row>
+          <MAP__TABLE__PREDICATE__FIELD__NAME></MAP__TABLE__PREDICATE__FIELD__NAME>
+          <MAP__TABLE__PREDICATE__URI>http://dbpedia.org/resource/Filename</MAP__TABLE__PREDICATE__URI>
+          <MAP__TABLE__OBJECT__FIELD__NAME>Filename</MAP__TABLE__OBJECT__FIELD__NAME>
+          <MAP__TABLE__TYPED__LITERAL></MAP__TABLE__TYPED__LITERAL>
+        </Row>
+      </Data>
+    </DataTable>
+  </entry>
+  <entry>
+    <string>OBJECT_OUT_FIELD_NAME</string>
+    <string>object</string>
+  </entry>
+  <entry>
+    <string>DEFAULT_GRAPH</string>
+    <string></string>
+  </entry>
+  <entry>
+    <string>VERSION</string>
+    <int>1</int>
+  </entry>
+  <entry>
+    <string>PREFIX_TABLE</string>
+    <DataTable>
+      <Name>PREFIX_TABLE</Name>
+      <Header>
+        <string>PREFIX_TABLE_PREFIX</string>
+        <string>PREFIX_TABLE_NAMESPACE</string>
+      </Header>
+      <Data/>
+    </DataTable>
+  </entry>
+  <entry>
+    <string>SUBJECT_URI_FIELD_NAME</string>
+    <string>URI</string>
+  </entry>
+  <entry>
+    <string>PREDICATE_OUT_FIELD_NAME</string>
+    <string>predicate</string>
+  </entry>
+  <entry>
+    <string>KEEP_INPUT_FIELDS</string>
+    <boolean>false</boolean>
+  </entry>
+  <entry>
+    <string>ENDPOINT_URI</string>
+    <string></string>
+  </entry>
+</map></DATA_ROOT_NODE>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1500</xloc>
+      <yloc>346</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -597,8 +768,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>478</xloc>
-      <yloc>8</yloc>
+      <xloc>479</xloc>
+      <yloc>116</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -658,8 +829,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1469</xloc>
-      <yloc>568</yloc>
+      <xloc>1140</xloc>
+      <yloc>577</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -739,8 +910,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1292</xloc>
-      <yloc>501</yloc>
+      <xloc>1041</xloc>
+      <yloc>503</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -790,74 +961,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1292</xloc>
-      <yloc>426</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Excel Output aaa</name>
-    <type>ExcelOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <header>Y</header>
-    <footer>N</footer>
-    <encoding>UTF-8</encoding>
-    <append>Y</append>
-    <add_to_result_filenames>Y</add_to_result_filenames>
-    <file>
-      <name>${Internal.Transformation.Filename.Directory}\saida\dados4</name>
-      <extention>xls</extention>
-      <do_not_open_newfile_init>N</do_not_open_newfile_init>
-      <split>N</split>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format>dd-MM-yyyy</date_time_format>
-      <sheetname>Provenance</sheetname>
-      <autosizecolums>N</autosizecolums>
-      <nullisblank>N</nullisblank>
-      <protect_sheet>N</protect_sheet>
-      <password>Encrypted </password>
-      <splitevery>0</splitevery>
-      </file>
-    <template>
-      <enabled>N</enabled>
-      <append>N</append>
-      <filename>template.xls</filename>
-    </template>
-    <fields>
-      <field>
-        <name>provenanceLabel</name>
-        <type>String</type>
-        <format/>
-      </field>
-      <field>
-        <name>provenanceFilename</name>
-        <type>String</type>
-        <format/>
-      </field>
-      <field>
-        <name>provenanceTimeDate</name>
-        <type>Date</type>
-        <format/>
-      </field>
-      <field>
-        <name>provenanceSource</name>
-        <type>String</type>
-        <format/>
-      </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1292</xloc>
-      <yloc>345</yloc>
+      <xloc>1041</xloc>
+      <yloc>428</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -884,8 +989,8 @@
     </compare>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>478</xloc>
-      <yloc>103</yloc>
+      <xloc>479</xloc>
+      <yloc>211</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -919,6 +1024,56 @@
     </step>
 
   <step>
+    <name>Formula 2</name>
+    <type>Formula</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+       <formula><field_name>URI</field_name>
+<formula_string>[Base URI]&amp;&quot;&#47;resource&#47;&quot;&amp;[Recurso]&amp;&quot;&#47;&quot;&amp; int([id_arquivo])</formula_string>
+<value_type>String</value_type>
+<value_length>-1</value_length>
+<value_precision>-1</value_precision>
+<replace_field/>
+</formula>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1350</xloc>
+      <yloc>346</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Formula 3  2</name>
+    <type>Formula</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+       <formula><field_name>tripla</field_name>
+<formula_string>&quot;&lt;&quot; &amp; T([subject]) &amp; &quot;&gt; &quot; &amp; if (left(T([predicate]); 1) &lt;&gt;&quot;&lt;&quot;; &quot;&lt;&quot; &amp; T([predicate]) &amp; &quot;&gt; &quot;; T([predicate])) &amp;&quot; &quot;&amp; if (left(T([predicate]); 1) =&quot;&lt;&quot;; T([scape]) &amp; T([object]) &amp; T([scape]); T([object])) &amp; &quot; .&quot;</formula_string>
+<value_type>String</value_type>
+<value_length>-1</value_length>
+<value_precision>-1</value_precision>
+<replace_field/>
+</formula>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1704</xloc>
+      <yloc>346</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
     <name>Replace in string</name>
     <type>ReplaceString</type>
     <description/>
@@ -943,6 +1098,67 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>366</xloc>
       <yloc>461</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Saida RDF</name>
+    <type>TextFileOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <separator/>
+    <enclosure/>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>N</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding/>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <file>
+      <name>${Internal.Transformation.Filename.Directory}\saida\provenance</name>
+      <is_command>N</is_command>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>nt</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery>0</splitevery>
+    </file>
+    <fields>
+      <field>
+        <name>tripla</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1915</xloc>
+      <yloc>346</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1107,8 +1323,8 @@
       </field>        <select_unspecified>N</select_unspecified>
     </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>630</xloc>
-      <yloc>105</yloc>
+      <xloc>592</xloc>
+      <yloc>211</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1163,11 +1379,11 @@
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>provenanceTimeDate</name>
+      </field>      <field>        <name>provenanceSource</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>provenanceSource</name>
+      </field>      <field>        <name>provenanceTimeDate</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
@@ -1178,8 +1394,8 @@
       </field>        <select_unspecified>N</select_unspecified>
     </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>690</xloc>
-      <yloc>461</yloc>
+      <xloc>602</xloc>
+      <yloc>460</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1205,8 +1421,8 @@
       </field>        <select_unspecified>N</select_unspecified>
     </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>873</xloc>
-      <yloc>568</yloc>
+      <xloc>704</xloc>
+      <yloc>577</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1226,6 +1442,10 @@
         <length>-2</length>
         <precision>-2</precision>
       </field>      <field>        <name>provenanceFilename</name>
+        <rename>Filename</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>provenanceSource</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
@@ -1233,15 +1453,15 @@
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>provenanceSource</name>
+      </field>      <field>        <name>cpf</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
       </field>        <select_unspecified>N</select_unspecified>
     </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>875</xloc>
-      <yloc>347</yloc>
+      <xloc>704</xloc>
+      <yloc>346</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1263,8 +1483,8 @@
       </field>        <select_unspecified>N</select_unspecified>
     </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>873</xloc>
-      <yloc>420</yloc>
+      <xloc>704</xloc>
+      <yloc>426</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1310,8 +1530,62 @@
       </field>        <select_unspecified>N</select_unspecified>
     </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>873</xloc>
-      <yloc>495</yloc>
+      <xloc>704</xloc>
+      <yloc>501</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Triplas Data Property</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>N</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>      <field>        <name>tripla</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>        <select_unspecified>N</select_unspecified>
+    </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1814</xloc>
+      <yloc>346</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>URI Resource</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>
+      <field>
+        <name>Recurso</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>tcu</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1237</xloc>
+      <yloc>346</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1332,8 +1606,8 @@
       <error_description/>
     <fields>      </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1121</xloc>
-      <yloc>574</yloc>
+      <xloc>873</xloc>
+      <yloc>577</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1356,14 +1630,14 @@
         <case_insensitive>N</case_insensitive>
         </field>      </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>959</xloc>
-      <yloc>6</yloc>
+      <xloc>873</xloc>
+      <yloc>116</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Unique rows (campos unicos) 2</name>
+    <name>Unique rows 2.1</name>
     <type>Unique</type>
     <description/>
     <distribute>Y</distribute>
@@ -1380,14 +1654,14 @@
         <case_insensitive>N</case_insensitive>
         </field>      </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1110</xloc>
-      <yloc>420</yloc>
+      <xloc>873</xloc>
+      <yloc>428</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Unique rows (campos unicos) 2 2</name>
+    <name>Unique rows 2</name>
     <type>Unique</type>
     <description/>
     <distribute>Y</distribute>
@@ -1400,12 +1674,12 @@
       <count_field/>
       <reject_duplicate_row>N</reject_duplicate_row>
       <error_description/>
-    <fields>      <field>        <name>provenanceFilename</name>
+    <fields>      <field>        <name>provenanceLabel</name>
         <case_insensitive>N</case_insensitive>
         </field>      </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1110</xloc>
-      <yloc>347</yloc>
+      <xloc>873</xloc>
+      <yloc>346</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1439,7 +1713,7 @@
         <currency/>
         <decimal/>
         <group/>
-        <nullif>arquivo #2</nullif>
+        <nullif>arquivo #1</nullif>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -1450,7 +1724,7 @@
         <currency/>
         <decimal/>
         <group/>
-        <nullif>tcu_relatorio_inidoneo04042014</nullif>
+        <nullif>relatorio_inidoneo14082014</nullif>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -1461,7 +1735,7 @@
         <currency/>
         <decimal/>
         <group/>
-        <nullif>11&#47;11&#47;2005</nullif>
+        <nullif>14&#47;08&#47;2014</nullif>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -1472,7 +1746,7 @@
         <currency/>
         <decimal/>
         <group/>
-        <nullif>https:&#47;&#47;contas.tcu.gov.br&#47;pls&#47;apex&#47;f?p=2046:5:164205065438402:CSV</nullif>
+        <nullif>http:&#47;&#47;portal2.tcu.gov.br&#47;portal&#47;page&#47;portal&#47;TCU&#47;comunidades&#47;responsabilizacao&#47;inidoneos</nullif>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -1491,7 +1765,7 @@
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>274</xloc>
-      <yloc>336</yloc>
+      <yloc>555</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1525,7 +1799,7 @@
         <currency/>
         <decimal/>
         <group/>
-        <nullif>teste</nullif>
+        <nullif>arquivo #2</nullif>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -1536,7 +1810,7 @@
         <currency/>
         <decimal/>
         <group/>
-        <nullif>arquivoTal</nullif>
+        <nullif>relatorio_inabilitado14082014</nullif>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -1547,7 +1821,7 @@
         <currency/>
         <decimal/>
         <group/>
-        <nullif>11&#47;11&#47;2005</nullif>
+        <nullif>14&#47;08&#47;2014</nullif>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -1558,7 +1832,7 @@
         <currency/>
         <decimal/>
         <group/>
-        <nullif>http:teste</nullif>
+        <nullif>http:&#47;&#47;portal2.tcu.gov.br&#47;portal&#47;page&#47;portal&#47;TCU&#47;comunidades&#47;responsabilizacao&#47;inabilitados</nullif>
         <length>-1</length>
         <precision>-1</precision>
       </field>
@@ -1576,8 +1850,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>275</xloc>
-      <yloc>573</yloc>
+      <xloc>274</xloc>
+      <yloc>351</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1805,8 +2079,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1141</xloc>
-      <yloc>105</yloc>
+      <xloc>1041</xloc>
+      <yloc>211</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -2034,8 +2308,39 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1141</xloc>
-      <yloc>9</yloc>
+      <xloc>1041</xloc>
+      <yloc>116</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>scape</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>
+      <field>
+        <name>scape</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>&quot;</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1631</xloc>
+      <yloc>346</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
