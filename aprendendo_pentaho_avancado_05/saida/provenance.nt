@@ -1,0 +1,12 @@
+<http://arida.ufc.br/resource/arquivo/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://arida.ufc.br/tcu/vocab/resource/Provenance> .
+<http://arida.ufc.br/resource/arquivo/1> <http://www.w3.org/2000/01/rdf-schema#label>  arquivo #1 .
+<http://arida.ufc.br/resource/arquivo/1> <http://purl.org/dc/terms/source>  http://portal2.tcu.gov.br/portal/page/portal/TCU/comunidades/responsabilizacao/inidoneos .
+<http://arida.ufc.br/resource/arquivo/1> <http://www.w3.org/2006/time#date>  2014/08/14 00:00:00.000 .
+<http://arida.ufc.br/resource/arquivo/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#id>  1 .
+<http://arida.ufc.br/resource/arquivo/1> <http://dbpedia.org/resource/Filename>  relatorio_inidoneo14082014 .
+<http://arida.ufc.br/resource/arquivo/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://arida.ufc.br/tcu/vocab/resource/Provenance> .
+<http://arida.ufc.br/resource/arquivo/2> <http://www.w3.org/2000/01/rdf-schema#label>  arquivo #2 .
+<http://arida.ufc.br/resource/arquivo/2> <http://purl.org/dc/terms/source>  http://portal2.tcu.gov.br/portal/page/portal/TCU/comunidades/responsabilizacao/inabilitados .
+<http://arida.ufc.br/resource/arquivo/2> <http://www.w3.org/2006/time#date>  2014/08/14 00:00:00.000 .
+<http://arida.ufc.br/resource/arquivo/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#id>  2 .
+<http://arida.ufc.br/resource/arquivo/2> <http://dbpedia.org/resource/Filename>  relatorio_inabilitado14082014 .
